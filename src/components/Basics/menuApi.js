@@ -1,6 +1,33 @@
 const Menu = [
     {
         id: 1,
+        label: "all"
+    },
+    {
+        id: 2,
+        label: "breakfast"
+    },
+    {
+        id: 3,
+        label: "lunch"
+    },
+    {
+        id: 4,
+        label: "dinner"
+    },
+    {
+        id: 5,
+        label: "dessert"
+    },
+    {
+        id: 6,
+        label: "starter"
+    }
+    
+]
+const MenuItems = [
+    {
+        id: 1,
         name: "Maggie",
         image: "images/breakfast/maggie.png",
         category: "breakfast",
@@ -78,6 +105,55 @@ const Menu = [
         category: "dinner",
         price: 60,
         description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis impedit, ab voluptate qui numquam quos"
+    },
+    {
+        id: 11,
+        name: "Pulaav",
+        image: "images/dinner/pulaav.jpeg",
+        category: "dinner",
+        price: 60,
+        description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis impedit, ab voluptate qui numquam quos"
+    },
+    {
+        id: 12,
+        name: "Lava cake",
+        image: "images/dessert/lavacack.jpeg",
+        category: "dessert",
+        price: 60,
+        description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis impedit, ab voluptate qui numquam quos"
+    },
+    {
+        id: 13,
+        name: "manchow soup",
+        image: "images/starter/manchow_soup.jpeg",
+        category: "starter",
+        price: 60,
+        description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis impedit, ab voluptate qui numquam quos"
+    },
+    {
+        id: 14,
+        name: "tometo soup",
+        image: "images/starter/tometo_soup.jpeg",
+        category: "starter",
+        price: 60,
+        description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis impedit, ab voluptate qui numquam quos"
+    },
+    {
+        id: 15,
+        name: "masala papad",
+        image: "images/starter/masala_paapad.jpeg",
+        category: "starter",
+        price: 60,
+        description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis impedit, ab voluptate qui numquam quos"
+    },
+    {
+        id: 16,
+        name: "paneer tikka",
+        image: "images/starter/panner_tikka.jpeg",
+        category: "starter",
+        price: 60,
+        description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis impedit, ab voluptate qui numquam quos"
     }
 ]
-export default Menu;
+export default MenuItems;
+export {Menu};
