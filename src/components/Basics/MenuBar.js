@@ -9,7 +9,7 @@ const MenuBar = props => {
                         props.menuBarItems.map((menuItem) => {
                             return (
                                 <>
-                                    <MenuButton filterMenuItem={props.filterMenuItem} label={menuItem.label} />
+                                    <MenuButton key={props.menuBarItems.indexOf(menuItem)} filterMenuItem={props.filterMenuItem} label={menuItem} />
                                 </>
                             )
                         })

@@ -1,30 +1,3 @@
-const Menu = [
-    {
-        id: 1,
-        label: "all"
-    },
-    {
-        id: 2,
-        label: "breakfast"
-    },
-    {
-        id: 3,
-        label: "lunch"
-    },
-    {
-        id: 4,
-        label: "dinner"
-    },
-    {
-        id: 5,
-        label: "dessert"
-    },
-    {
-        id: 6,
-        label: "starter"
-    }
-    
-]
 const MenuItems = [
     {
         id: 1,
@@ -153,7 +126,14 @@ const MenuItems = [
         category: "starter",
         price: 60,
         description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis impedit, ab voluptate qui numquam quos"
+    },
+    {
+        id: 17,
+        name: "paneer tikka",
+        image: "images/starter/panner_tikka.jpeg",
+        category: "nasta",
+        price: 60,
+        description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis impedit, ab voluptate qui numquam quos"
     }
 ]
 export default MenuItems;
-export {Menu};
