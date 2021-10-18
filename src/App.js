@@ -1,13 +1,12 @@
 import React from 'react'
-import Restaurant from './components/Basics/Restaurant'
-import UseNewState from './components/Hooks/UseNewState';
-import UseNewEffect from './components/Hooks/UseNewEffect';
+import UseNewReducer from './components/Hooks/UseNewReducer';
 const App = () => {
     return (
         <>
             {/* <Restaurant /> */}
             {/* <UseNewState /> */}
-            <UseNewEffect />
+            {/* <UseNewEffect /> */}
+            <UseNewReducer />
         </>
     );
 }
