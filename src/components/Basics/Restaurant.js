@@ -8,6 +8,7 @@ const Menu = [...new Set(MenuItems.map((item) => { return item.category })), "al
 
 const Restaurant = () => {
     const [menuBarItems, setMenuBarItems] = useState(Menu);
+    console.log(menuBarItems);
 
     const [menuData, setMenuData] = useState(MenuItems);
 
