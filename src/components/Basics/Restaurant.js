@@ -4,7 +4,7 @@ import MenuItems from './menuApi'
 import MenuCard from './MenuCard'
 import MenuBar from './MenuBar'
 
-const Menu= [...new Set(MenuItems.map((item) => {return item.category})), "all"]
+const Menu = [...new Set(MenuItems.map((item) => { return item.category })), "all"]
 
 const Restaurant = () => {
     const [menuBarItems, setMenuBarItems] = useState(Menu);
@@ -16,10 +16,10 @@ const Restaurant = () => {
             setMenuData(MenuItems);
             return;
         }
-            const updatedMenu = MenuItems.filter((item) => {
-                return item.category === category
-            });
-            setMenuData(updatedMenu);
+        const updatedMenu = MenuItems.filter((item) => {
+            return item.category === category
+        });
+        setMenuData(updatedMenu);
     }
     return (
         <>

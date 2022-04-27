@@ -16,7 +16,7 @@ const MenuCard = props => {
                                             <div className="card-read">Read</div>
                                         </div>
                                         <img src={currentDish.image} alt={currentDish.name} className="card-media" />
-                                        <span className="card-tag subtle">Order Now</span>
+                                        <span className="card-tag subtle" onClick={() => alert(`${currentDish.name} not available!`)}>Order Now</span>
                                     </div>
                                 </div>
                             </>

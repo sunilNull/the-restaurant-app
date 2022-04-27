@@ -80,14 +80,6 @@ const MenuItems = [
         description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis impedit, ab voluptate qui numquam quos"
     },
     {
-        id: 11,
-        name: "Pulaav",
-        image: "images/dinner/pulaav.jpeg",
-        category: "dinner",
-        price: 60,
-        description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis impedit, ab voluptate qui numquam quos"
-    },
-    {
         id: 12,
         name: "Lava cake",
         image: "images/dessert/lavacack.jpeg",
@@ -124,14 +116,6 @@ const MenuItems = [
         name: "paneer tikka",
         image: "images/starter/panner_tikka.jpeg",
         category: "starter",
-        price: 60,
-        description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis impedit, ab voluptate qui numquam quos"
-    },
-    {
-        id: 17,
-        name: "paneer tikka",
-        image: "images/starter/panner_tikka.jpeg",
-        category: "nasta",
         price: 60,
         description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis impedit, ab voluptate qui numquam quos"
     }

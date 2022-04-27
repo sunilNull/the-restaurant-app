@@ -1,12 +1,9 @@
 import React from 'react'
-import UseNewReducer from './components/Hooks/UseNewReducer';
+import Restaurant from './components/Basics/Restaurant';
 const App = () => {
     return (
         <>
-            {/* <Restaurant /> */}
-            {/* <UseNewState /> */}
-            {/* <UseNewEffect /> */}
-            <UseNewReducer />
+            <Restaurant />
         </>
     );
 }
